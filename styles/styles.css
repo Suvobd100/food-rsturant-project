@@ -80,13 +80,15 @@
 #card-box {
     width: 1056px;
     margin: 100px auto;
-    
+
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: space-between;
     font-family: "Work Sans";
 }
+
 #card-box .inner-title {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -108,26 +110,58 @@
     opacity: 0.6;
 
 }
-.card-container{
+
+.card-container {
     margin-top: 35px;
 }
-.card{
+
+.card {
     max-width: 256px;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    gap:20px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
-.card .img img{
+
+.card .img img {
     width: 100%;
 }
-.card .shop{
+
+.card .shop {
     padding: 10px 18px 10px 18px;
     background: rgba(82, 195, 3, 0.15);
 
 }
+
 /* style="text-align: center;" */
-.card-container p{
+.card-container p {
     text-align: center;
-} 
+}
+
+#about-us {
+    width: 1536px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.food-pic {
+    width: 768px;
+
+}
+.food-pic img{
+    width: 500px;
+
+}
+
+.provide {
+    width: 768px;
+
+}
+/* 
+.food-pic.provide {
+    display: inline-block;
+    width: 50%;
+
+} */
