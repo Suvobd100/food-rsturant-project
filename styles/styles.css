@@ -141,7 +141,7 @@
 
 #about-us {
     width: 1536px;
-    
+
     margin-bottom: 10px;
 
 
@@ -183,13 +183,34 @@ p {
 
 }
 
- .singel-card{
+.singel-card {
     display: flex;
     justify-content: center;
- }
-#social-foot{
-   /* height: 1545px; */
+}
+
+#social {
+    height: 450px;
     /* background-image: url("../assets/social-bg.png"); */
+    background-position: center;
+    background-size: cover;
     position: relative;
-    top:80%
-} 
+    margin-top: 10px;
+}
+#social ::before{
+    background-image: url("../assets/social-bg.png");
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+    
+}
+#social h1{
+    text-align: center;
+    color: deep black;
+    font-weight: 800;
+    isolation: isolate;
+    padding-top: 200px;
+}
+    
+    
