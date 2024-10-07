@@ -141,6 +141,7 @@
 
 #about-us {
     width: 1536px;
+    margin-bottom: 10px;
     
 
 }
@@ -164,4 +165,7 @@
 .provide h1,h3,p{
    text-align: center;
     margin-bottom: 10px;
+}
+.provide h3{
+    margin-top: 40px;
 }
