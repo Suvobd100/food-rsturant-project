@@ -215,7 +215,8 @@ p {
     
 #social p{
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 15px;
+    gap:12px
    
 }
 #social img{
